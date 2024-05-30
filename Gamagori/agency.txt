@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
+3000020232149,愛知県蒲郡市,http://www.city.gamagori.lg.jp/unit/kotsu/communitybus.html,Asia/Tokyo,ja,0533-66-1156,

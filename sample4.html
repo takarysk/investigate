@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_36fef6dccb45ac120b2cabc6e0d65a40 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_36fef6dccb45ac120b2cabc6e0d65a40" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_36fef6dccb45ac120b2cabc6e0d65a40 = L.map(
+                "map_36fef6dccb45ac120b2cabc6e0d65a40",
+                {
+                    center: [43.181803611597374, 141.43170456594424],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c5ad2795cc27f5756405320b096bf1b0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_36fef6dccb45ac120b2cabc6e0d65a40);
+        
+    
+            var marker_bd26ff3390ce715feb3012e023331526 = L.marker(
+                [43.181803611597374, 141.43170456594424],
+                {"height": 500, "width": 100}
+            ).addTo(map_36fef6dccb45ac120b2cabc6e0d65a40);
+        
+    
+            var icon_a3281b3ee0fb3d4a08ce1a1247617234 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bd26ff3390ce715feb3012e023331526.setIcon(icon_a3281b3ee0fb3d4a08ce1a1247617234);
+        
+    
+        var popup_e9d7de62a453c5515ffe1f4858994e73 = L.popup({"height": 400, "maxWidth": "100%", "width": 500});
+
+        
+            
+                var html_0842d12adc2178562b28563485f594a0 = $(`<div id="html_0842d12adc2178562b28563485f594a0" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe">   <thead>     <tr style="text-align: right;">       <th></th>       <th>データ</th>     </tr>   </thead>   <tbody>     <tr>       <th>時間</th>       <td>1689559198449</td>     </tr>     <tr>       <th>時間</th>       <td>1689559198449</td>     </tr>     <tr>       <th>車両ID</th>       <td>VG9A2CB2CJV019128</td>     </tr>   </tbody> </table></div>`)[0];
+                popup_e9d7de62a453c5515ffe1f4858994e73.setContent(html_0842d12adc2178562b28563485f594a0);
+            
+        
+
+        marker_bd26ff3390ce715feb3012e023331526.bindPopup(popup_e9d7de62a453c5515ffe1f4858994e73)
+        ;
+
+        
+    
+    
+            var marker_ef7d7c109ad563390df271b82e759860 = L.marker(
+                [43.183172, 141.448839],
+                {"height": 500, "width": 100}
+            ).addTo(map_36fef6dccb45ac120b2cabc6e0d65a40);
+        
+    
+            var icon_269d6e43ce6ab3e771dca48f33a783ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ef7d7c109ad563390df271b82e759860.setIcon(icon_269d6e43ce6ab3e771dca48f33a783ce);
+        
+    
+        var popup_c283f28155fb72c4dea9309865561920 = L.popup({"height": 400, "maxWidth": "100%", "width": 500});
+
+        
+            
+                var html_0df8cf9270179d4deca7e0b4821de6c1 = $(`<div id="html_0df8cf9270179d4deca7e0b4821de6c1" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe">   <thead>     <tr style="text-align: right;">       <th></th>       <th>データ</th>     </tr>   </thead>   <tbody>     <tr>       <th>時間</th>       <td>1689559198450</td>     </tr>     <tr>       <th>時間</th>       <td>1689559198450</td>     </tr>     <tr>       <th>車両ID</th>       <td>VG9A2CB2CJV019128</td>     </tr>   </tbody> </table></div>`)[0];
+                popup_c283f28155fb72c4dea9309865561920.setContent(html_0df8cf9270179d4deca7e0b4821de6c1);
+            
+        
+
+        marker_ef7d7c109ad563390df271b82e759860.bindPopup(popup_c283f28155fb72c4dea9309865561920)
+        ;
+
+        
+    
+    
+            var marker_f789a87588c8592e8207705e25c5c649 = L.marker(
+                [43.18816, 141.44809],
+                {"height": 500, "width": 100}
+            ).addTo(map_36fef6dccb45ac120b2cabc6e0d65a40);
+        
+    
+            var icon_8928bbcb0ffc7fefa59359add39e9422 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f789a87588c8592e8207705e25c5c649.setIcon(icon_8928bbcb0ffc7fefa59359add39e9422);
+        
+    
+        var popup_771bdda6c747841822e2c45f12757505 = L.popup({"height": 400, "maxWidth": "100%", "width": 500});
+
+        
+            
+                var html_0ba71e463de710e809b11ddaa3d42c2a = $(`<div id="html_0ba71e463de710e809b11ddaa3d42c2a" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe">   <thead>     <tr style="text-align: right;">       <th></th>       <th>データ</th>     </tr>   </thead>   <tbody>     <tr>       <th>時間</th>       <td>1689559198451</td>     </tr>     <tr>       <th>時間</th>       <td>1689559198451</td>     </tr>     <tr>       <th>車両ID</th>       <td>VG9A2CB2CJV019128</td>     </tr>   </tbody> </table></div>`)[0];
+                popup_771bdda6c747841822e2c45f12757505.setContent(html_0ba71e463de710e809b11ddaa3d42c2a);
+            
+        
+
+        marker_f789a87588c8592e8207705e25c5c649.bindPopup(popup_771bdda6c747841822e2c45f12757505)
+        ;
+
+        
+    
+    
+            var marker_3fa478d433b4f4613e1a1b5b995b3638 = L.marker(
+                [43.18878, 141.454949],
+                {"height": 500, "width": 100}
+            ).addTo(map_36fef6dccb45ac120b2cabc6e0d65a40);
+        
+    
+            var icon_7a983f319afd926f884c45c43c05f002 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3fa478d433b4f4613e1a1b5b995b3638.setIcon(icon_7a983f319afd926f884c45c43c05f002);
+        
+    
+        var popup_36fc25e83a8b6c205e1e1ab6f995c094 = L.popup({"height": 400, "maxWidth": "100%", "width": 500});
+
+        
+            
+                var html_9b8e94ddcddb1a3240bf7f3db919415e = $(`<div id="html_9b8e94ddcddb1a3240bf7f3db919415e" style="width: 100.0%; height: 100.0%;"><table border="1" class="dataframe">   <thead>     <tr style="text-align: right;">       <th></th>       <th>データ</th>     </tr>   </thead>   <tbody>     <tr>       <th>時間</th>       <td>1689559198452</td>     </tr>     <tr>       <th>時間</th>       <td>1689559198452</td>     </tr>     <tr>       <th>車両ID</th>       <td>VG9A2CB2CJV019128</td>     </tr>   </tbody> </table></div>`)[0];
+                popup_36fc25e83a8b6c205e1e1ab6f995c094.setContent(html_9b8e94ddcddb1a3240bf7f3db919415e);
+            
+        
+
+        marker_3fa478d433b4f4613e1a1b5b995b3638.bindPopup(popup_36fc25e83a8b6c205e1e1ab6f995c094)
+        ;
+
+        
+    
+    
+            var poly_line_f20c7b523288b413b125dc00a59d8216 = L.polyline(
+                [[43.181803611597374, 141.43170456594424], [43.183172, 141.448839], [43.18816, 141.44809], [43.18878, 141.454949]],
+                {"bubblingMouseEvents": true, "color": "#0000ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#0000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_36fef6dccb45ac120b2cabc6e0d65a40);
+        
+</script>
+</html>

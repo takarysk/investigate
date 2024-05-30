@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+愛知県蒲郡市,http://www.city.gamagori.lg.jp/unit/kotsu/communitybus.html,ja,20230401,20240331,2023/04/01改正

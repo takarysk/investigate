@@ -1,0 +1,190 @@
+[
+    {
+        "vehicle_id": "VG9A2CB2CJV019128",
+        "timestamp": "2023-07-05T10:06:00+0900",
+        "speed": {
+            "unit": "MPS",
+            "value": -0.7463721677006807
+        },
+        "acceleration": {
+            "unit": "MPSS",
+            "value": 1.5638150097869195
+        },
+        "geoPosition": {
+            "lat": 43.181803611597374,
+            "lon": 141.43170456594424,
+            "high": 0.005672420375049114
+        },
+        "bearing": {
+            "value": 3.12980681754267
+        },
+        "mileage": {
+            "unit": "METER",
+            "value": 3537720.136181253
+        },
+        "robotMode": {
+            "mode": "MANUAL"
+        },
+        "batteryStatus": {
+            "level": "82",
+            "state": "NO_CHARGE"
+        },
+        "doorStatus": {
+            "state": "CLOSED"
+        },
+        "steeringRate": {
+            "unit": "RADPS",
+            "value": -0.2520248320783731
+        },
+        "reverseLight": {
+            "state": false
+        },
+        "brakeLight": {
+            "state": false
+        },
+        "blinkersState": {
+            "state": "ON_RIGHT"
+        }
+    },
+    {
+        "vehicle_id": "VG9A2CB2CJV019128",
+        "timestamp": "2023-07-05T10:06:01+0900",
+        "speed": {
+            "unit": "MPS",
+            "value": -0.7463721677006807
+        },
+        "acceleration": {
+            "unit": "MPSS",
+            "value": 1.5638150097869195
+        },
+        "geoPosition": {
+            "lat": 43.183172,
+            "lon": 141.448839,
+            "high": 0.005672420375049114
+        },
+        "bearing": {
+            "value": 3.12980681754267
+        },
+        "mileage": {
+            "unit": "METER",
+            "value": 3537720.136181253
+        },
+        "robotMode": {
+            "mode": "MANUAL"
+        },
+        "batteryStatus": {
+            "level": "82",
+            "state": "NO_CHARGE"
+        },
+        "doorStatus": {
+            "state": "CLOSED"
+        },
+        "steeringRate": {
+            "unit": "RADPS",
+            "value": -0.2520248320783731
+        },
+        "reverseLight": {
+            "state": false
+        },
+        "brakeLight": {
+            "state": false
+        },
+        "blinkersState": {
+            "state": "ON_RIGHT"
+        }
+    },
+    {
+        "vehicle_id": "VG9A2CB2CJV019128",
+        "timestamp": "2023-07-05T10:06:02+0900",
+        "speed": {
+            "unit": "MPS",
+            "value": -0.7463721677006807
+        },
+        "acceleration": {
+            "unit": "MPSS",
+            "value": 1.5638150097869195
+        },
+        "geoPosition": {
+            "lat": 43.188160,
+            "lon": 141.448090,
+            "high": 0.005672420375049114
+        },
+        "bearing": {
+            "value": 3.12980681754267
+        },
+        "mileage": {
+            "unit": "METER",
+            "value": 3537720.136181253
+        },
+        "robotMode": {
+            "mode": "MANUAL"
+        },
+        "batteryStatus": {
+            "level": "82",
+            "state": "NO_CHARGE"
+        },
+        "doorStatus": {
+            "state": "CLOSED"
+        },
+        "steeringRate": {
+            "unit": "RADPS",
+            "value": -0.2520248320783731
+        },
+        "reverseLight": {
+            "state": false
+        },
+        "brakeLight": {
+            "state": false
+        },
+        "blinkersState": {
+            "state": "ON_RIGHT"
+        }
+    },
+    {
+        "vehicle_id": "VG9A2CB2CJV019128",
+        "timestamp": "2023-07-05T10:06:03+0900",
+        "speed": {
+            "unit": "MPS",
+            "value": -0.7463721677006807
+        },
+        "acceleration": {
+            "unit": "MPSS",
+            "value": 1.5638150097869195
+        },
+        "geoPosition": {
+            "lat": 43.188780,
+            "lon": 141.454949,
+            "high": 0.005672420375049114
+        },
+        "bearing": {
+            "value": 3.12980681754267
+        },
+        "mileage": {
+            "unit": "METER",
+            "value": 3537720.136181253
+        },
+        "robotMode": {
+            "mode": "MANUAL"
+        },
+        "batteryStatus": {
+            "level": "82",
+            "state": "NO_CHARGE"
+        },
+        "doorStatus": {
+            "state": "CLOSED"
+        },
+        "steeringRate": {
+            "unit": "RADPS",
+            "value": -0.2520248320783731
+        },
+        "reverseLight": {
+            "state": false
+        },
+        "brakeLight": {
+            "state": false
+        },
+        "blinkersState": {
+            "state": "ON_RIGHT"
+        }
+    }
+]
